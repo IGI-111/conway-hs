@@ -1,0 +1,15 @@
+name:                conway-hs
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              IGI-111
+maintainer:          igi-111@protonmail.com
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+cabal-version:       >=1.10
+
+executable conway-hs
+  main-is:             Main.hs
+  build-depends:       base, split ==0.2.3.3
+  default-language:    Haskell2010
+
