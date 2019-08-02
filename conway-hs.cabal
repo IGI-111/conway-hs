@@ -10,6 +10,6 @@ cabal-version:       >=1.10
 
 executable conway-hs
   main-is:             Main.hs
-  build-depends:       base, split, random
+  build-depends:       base, vector, random
   default-language:    Haskell2010
 
